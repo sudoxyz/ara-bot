@@ -1,0 +1,55 @@
+{
+  "name": "arabot",
+  "version": "1.0.0",
+  "description": "ARA Server Bot",
+  "main": "index.js",
+  "homepage": "https://gitlab.com/Leftclickchris/arabot",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/Leftclickchris/arabot.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/Leftclickchris/arabot/-/issues"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "mocha"
+  },
+  "author": "ARADevs",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonfile": "^6.0.1",
+    "mocha": "^9.0.3",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "mongoose": "^6.2.3",
+    "mysql2": "^2.2.5",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^3.2.0",
+    "register": "^0.0.0",
+    "sequelize": "^6.6.5"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@models": "utils/models",
+    "@commands": "commands",
+    "@utils": "utils",
+    "@base": "base",
+    "@media": "media"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "prettier": "^2.3.2"
+  }
+}
